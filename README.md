@@ -11,10 +11,10 @@ Bu proje, karmaşık iş görevlerini otonom bir şekilde planlayıp icra edebil
 ## 🚀 Hızlı Başlangıç
 
 ```python
-from antigravity.core import Agent
+from ai_core.logic import Agent
 
 # Ajanı başlat
-agent = Agent(name="Antigravity", model="gemini-2.0-flash")
+agent = Agent(name="Nexus-AI", model="gemini-2.0-flash")
 
 # Görev tanımla
 task = "YouTube'daki en popüler AI trendlerini analiz et ve bir rapor hazırla."
