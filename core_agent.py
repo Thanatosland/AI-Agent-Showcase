@@ -2,7 +2,7 @@ import os
 import json
 import logging
 
-class AntigravityAgent:
+class AutonomousAgent:
     """
     A professional-grade autonomous agent wrapper demo.
     Demonstrates identity management, tool orchestration, and decision loops.
@@ -16,7 +16,7 @@ class AntigravityAgent:
         if os.path.exists(path):
             with open(path, 'r') as f:
                 return json.load(f)
-        return {"name": "Antigravity", "version": "1.0.0"}
+        return {"name": "NexusAI", "version": "1.0.0"}
 
     def perceive(self, input_data):
         """Analyze environment or user input."""
@@ -35,7 +35,7 @@ class AntigravityAgent:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    agent = AntigravityAgent("config.json")
+    agent = AutonomousAgent("config.json")
     
     # Simple Loop Demo
     state = agent.perceive("Market Trends 2026")
