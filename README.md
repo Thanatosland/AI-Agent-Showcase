@@ -1,4 +1,4 @@
-# 🤖 Autonomous AI Agent Framework
+⁰# 🤖 Autonomous AI Agent Framework
 
 Bu proje, karmaşık iş görevlerini otonom bir şekilde planlayıp icra edebilen modüler bir yapay zeka asistanı çekirdeğidir. Model Context Protocol (MCP) standartlarını kullanarak dış araçlarla konuşabilir.
 
@@ -14,7 +14,7 @@ Bu proje, karmaşık iş görevlerini otonom bir şekilde planlayıp icra edebil
 from ai_core.logic import Agent
 
 # Ajanı başlat
-agent = Agent(name="Nexus-AI", model="gemini-2.0-flash")
+agent = Agent("model="gemini-2.0-flash")
 
 # Görev tanımla
 task = "YouTube'daki en popüler AI trendlerini analiz et ve bir rapor hazırla."
